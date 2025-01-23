@@ -173,6 +173,11 @@ a {
   margin: 0;
   padding: 120px 0;
 }
+.about {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+  margin-bottom: 8px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -204,6 +209,9 @@ a {
 }
 
 /*section THREE */
+.team-title {
+  margin-bottom: 72px;
+}
 .our-team {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -212,6 +220,10 @@ a {
 .our-team {
   display: flex;
   align-items: center;
+  gap: 24px;
+}
+.team-list {
+  display: flex;
   gap: 24px;
 }
 .ot-team-list {
@@ -308,7 +320,7 @@ a {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.p-info {
+.list-portfolio {
   weight: calc((100% - 48px) / 3);
 }
 
