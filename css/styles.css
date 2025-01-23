@@ -127,7 +127,6 @@ a {
 .hero-page {
   display: flex;
   align-items: center;
-  padding: 198px 292px 198px 292px;
 }
 .hero-name {
   font-weight: 700;
@@ -183,11 +182,10 @@ a {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+  margin-bottom: 8px;
 }
 .list-info {
   background-color: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .list-info {
   display: flex;
@@ -216,12 +214,14 @@ a {
   align-items: center;
   gap: 24px;
 }
-.team-list {
+.ot-team-list {
   background-color: #f4f4fd;
   display: flex;
   gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.team-item {
+.ot-team-list .team-item {
   padding: 32px 0;
 }
 .ot-name,
@@ -251,16 +251,11 @@ a {
   flex-wrap: wrap;
   gap: 24px;
 }
-
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-  margin-bottom: 72px;
+.portfolio {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  align-items: center;
 }
 .title-p {
   font-weight: 700;
@@ -277,9 +272,10 @@ a {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+  display: flex;
 }
 
-.list-info-portf {
+.list-portf {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
 }
