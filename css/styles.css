@@ -117,14 +117,11 @@ a {
 .page-header {
   background-color: #fff;
 }
-.section {
-  padding: 120px 0;
-}
 
 /*section 1 */
 .hero-page {
   background-color: #2e2f42;
-  padding: 188px 0 188px 0;
+  padding: 188px 0;
 }
 
 .hero-page {
@@ -149,6 +146,7 @@ a {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
   text-align: center;
   padding: 16px 32px;
   width: 233px;
@@ -166,7 +164,7 @@ a {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-/*section team */
+/*section TWO */
 .our-title {
   font-weight: 700;
   font-size: 36px;
@@ -174,9 +172,18 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin: 0;
-  padding: 120px 0 120px 0;
+  padding: 120px 0;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 .list-info {
   background-color: #fff;
   padding-top: 120px;
@@ -190,8 +197,33 @@ a {
 .list-info-text {
   width: calc((100% - 72px) / 4);
 }
+.info-text {
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  line-height: 1.5;
+}
 
-.info-page,
+/*section THREE */
+.our-team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.our-team {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.team-list {
+  background-color: #f4f4fd;
+  display: flex;
+  gap: 24px;
+}
+.team-item {
+  padding: 32px 0;
+}
 .ot-name,
 .p-app {
   font-weight: 500;
@@ -211,20 +243,15 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: left;
 }
 
-/*section portfolio */
+/*section FOUR */
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-.team-list {
-  background-color: #f4f4fd;
-  display: flex;
-  gap: 24px;
-}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -252,7 +279,7 @@ a {
   padding-bottom: 120px;
 }
 
-.ot-team-list {
+.list-info-portf {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
 }
@@ -269,6 +296,10 @@ a {
 .list-portfolio {
   background-color: #f4f4fd;
   row-gap: 48px;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px, 24px;
 }
 
 .portfolio-container {
