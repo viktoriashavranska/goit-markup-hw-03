@@ -49,6 +49,7 @@ a {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-align: left;
+  margin-right: 76px;
 }
 
 /*header*/
@@ -219,6 +220,7 @@ a {
 
 /*section THREE */
 .team-title {
+  display: flex;
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
