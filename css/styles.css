@@ -49,15 +49,14 @@ a {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-align: left;
-  margin-right: 76px;
 }
 
 /*header*/
 
 .header-logo .logo-part {
   color: #2e2f42;
+  padding: 76px 0;
   margin-right: 76px;
-  padding: 24px 0 24px 0;
 }
 
 .page-header {
@@ -220,7 +219,6 @@ a {
 
 /*section THREE */
 .team-title {
-  display: flex;
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -240,6 +238,7 @@ a {
   gap: 24px;
 }
 .team-list {
+  display: flex;
   gap: 24px;
 }
 .ot-team-list {
@@ -380,4 +379,5 @@ a {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-align: left;
+  margin-right: 76px;
 }
